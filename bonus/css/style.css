@@ -1,0 +1,87 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+[class*="col-"] {
+    background-color: #006cfa;
+    border: 2px solid white;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nested {
+    background-color: #00e165;
+    border: 2px solid #006cfa;
+}
+
+.secondary {
+    margin: 15px;
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+h5 {
+    color: white;
+}
+
+/*non desktop devices*/
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    .row {
+        margin: 20px 5px;
+    }
+
+    /*bonus*/
+
+    h3 {
+        text-align: center;
+    }
+}
+
+
+
+/*bonus*/
+
+.alignments .spacing-center {
+    justify-content: center;
+}
+
+.alignments .spacing-end {
+    justify-content: end;
+}
+
+.alignments .spacing-middle {
+    align-items: center;
+}
+
+.alignments .spacing-bottom {
+    align-items: end;
+}
+
+.bonus-around {
+    justify-content: space-around;
+}
+
+.bonus-between {
+    justify-content: space-between;
+}
+
+/*stili*/
+
+.big {
+    height: 120px;
+}
+
+.small {
+    height: 60px;
+}

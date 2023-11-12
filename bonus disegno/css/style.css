@@ -1,0 +1,31 @@
+body {
+    background-color: #000;
+}
+
+[class*="col-"] {
+    height: 15.85px;
+}
+
+.celeste {
+    background-color: #9dd5f0;
+}
+
+.blu {
+    background-color: #1a96c9;
+}
+
+.giallo {
+    background-color: #fbbe2f;
+}
+
+.giallo-chiaro {
+    background-color: #f1df8b;
+}
+
+.arancione {
+    background-color: #f27c1c;
+}
+
+.mogano {
+    background-color: #e24a25;
+}
